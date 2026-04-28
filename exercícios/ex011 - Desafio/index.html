@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha foto</title>
+</head>
+<body>
+    <h1>Minha foto dinâmica</h1>
+    <p>Aumente e diminua o tamanho da tela e veja a imagem se transformar!</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/marcos-p.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/marcos-m.png" type="image/png">
+        <img src="imagens/marcos-g.png" alt="Foto de Marcos">
+    </picture>
+</body>
+</html>
