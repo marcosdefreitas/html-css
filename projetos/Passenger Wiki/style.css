@@ -199,6 +199,11 @@ aside > h3 {
     color: var(--salmão);
 }
 
+aside strong {
+    background-color: var(--vermelho);
+    color: var(--salmão);
+}
+
 aside > ul {
     list-style-position: inside;
 }
